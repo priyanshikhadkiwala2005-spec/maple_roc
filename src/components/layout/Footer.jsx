@@ -1,5 +1,5 @@
 import { navLinks } from '../../data/siteData';
-import { ArrowUp, Mail, Phone, MapPin, User } from 'lucide-react';
+import { ArrowUp, Phone, MapPin } from 'lucide-react';
 
 export default function Footer({ onNavigate }) {
   const scrollToTop = () => {
@@ -70,11 +70,6 @@ export default function Footer({ onNavigate }) {
             <p className="text-xs sm:text-sm text-stone-400 leading-relaxed max-w-sm">
               Integrated turnkey commercial interior solutions. From strategic workplace programming to precision architectural manufacturing and on-site delivery.
             </p>
-
-            <div className="pt-1 flex items-center gap-2 text-xs text-emerald-300 font-medium">
-              <User className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Founder: <strong className="text-white font-semibold">Dharmendra Surelia</strong></span>
-            </div>
 
             <div className="text-xs text-emerald-400/80 font-medium">
               ISO 9001:2015 & ISO 14001 Certified Practice
@@ -151,18 +146,6 @@ export default function Footer({ onNavigate }) {
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a href="tel:+917359551555" className="text-white font-semibold hover:text-emerald-400 tracking-wide text-sm">
                   +91 73595 51555
-                </a>
-              </div>
-              <div className="flex items-center gap-2.5">
-                <User className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span className="text-stone-300">
-                  Founder: <strong className="text-white">Dharmendra Surelia</strong>
-                </span>
-              </div>
-              <div className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="mailto:hello@mapleroc.com" className="hover:text-white">
-                  hello@mapleroc.com
                 </a>
               </div>
             </div>
