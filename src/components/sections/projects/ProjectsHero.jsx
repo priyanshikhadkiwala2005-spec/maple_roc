@@ -70,10 +70,10 @@ export default function ProjectsHero() {
               <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 bg-white/95 backdrop-blur-md rounded-2xl p-4 border border-white/80 shadow-lg flex items-center justify-between gap-3">
                 <div>
                   <span className="text-[10px] font-bold text-[#2F6146] uppercase tracking-wider block mb-0.5">
-                    Commercial Interiors
+                    Hospitality & Leisure Architecture
                   </span>
                   <p className="text-xs sm:text-[13px] font-semibold text-stone-900 leading-tight">
-                    Enterprise Headquarters Corridor & Board Suites
+                    Open-Air Terrace Lounge & Pavilion Architecture
                   </p>
                 </div>
                 <a

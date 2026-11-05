@@ -15,7 +15,7 @@ export default function AboutHero() {
             <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl text-[#0D3B2E] font-medium tracking-tight leading-[1.12]">
               From a furniture retailer to <br />
               <span className="italic font-normal text-emerald-800">one accountable partner</span> for <br />
-              the <span className="underline decoration-emerald-500/40 underline-offset-4">whole space.</span>
+              the whole space.
             </h1>
 
             <p className="text-sm sm:text-base lg:text-lg text-stone-600 max-w-xl leading-relaxed">

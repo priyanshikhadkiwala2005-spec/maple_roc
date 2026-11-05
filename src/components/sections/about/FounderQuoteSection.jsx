@@ -11,9 +11,9 @@ export default function FounderQuoteSection() {
             <div className="lg:col-span-4 flex flex-col items-center lg:items-start text-center lg:text-left border-b lg:border-b-0 lg:border-r border-stone-200/80 pb-6 lg:pb-0 lg:pr-8">
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden ring-4 ring-emerald-100 shadow-md mb-4 bg-stone-100">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
-                  alt="Dharmendra Surelia - Founder of MapleRoc"
-                  className="w-full h-full object-cover"
+                  src="/images/dharmendra-surelia.jpg"
+                  alt="Dharmendra Surelia - MapleRoc Founder & Managing Director"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
 

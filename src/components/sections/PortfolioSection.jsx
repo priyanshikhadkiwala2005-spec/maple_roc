@@ -122,47 +122,51 @@ export default function PortfolioSection() {
 
               </div>
 
-              {/* Bottom Row: 3 cards side-by-side */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {portfolioItems.slice(2, 5).map((item) => (
-                  <div
-                    key={item.id}
-                    className="bg-white rounded-2xl sm:rounded-3xl overflow-hidden border border-stone-200 shadow-sm flex flex-col group"
-                  >
-                    <div className="relative aspect-16/10 overflow-hidden bg-stone-100">
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
-                      />
-                      <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex flex-wrap gap-1.5">
-                        {item.tags.map((tag) => (
-                          <span
-                            key={tag}
-                            className="bg-white/95 backdrop-blur-xs text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md text-emerald-900 border border-emerald-100 shadow-xs"
-                          >
-                            {tag}
-                          </span>
-                        ))}
+              {/* Bottom Row: Featured Workstations */}
+              {portfolioItems[2] && (
+                <div className="bg-white rounded-2xl sm:rounded-3xl overflow-hidden border border-stone-200 shadow-sm flex flex-col md:flex-row group">
+                  <div className="relative aspect-16/10 md:aspect-auto md:w-1/2 overflow-hidden bg-stone-100 min-h-[240px]">
+                    <img
+                      src={portfolioItems[2].image}
+                      alt={portfolioItems[2].title}
+                      className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
+                    />
+                    <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex flex-wrap gap-1.5">
+                      {portfolioItems[2].tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="bg-white/95 backdrop-blur-xs text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md text-emerald-900 border border-emerald-100 shadow-xs"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="p-6 sm:p-8 flex flex-col justify-between md:w-1/2">
+                    <div>
+                      <div className="text-[11px] font-bold uppercase tracking-wider text-[#2F6146] mb-2">
+                        Turnkey Workspaces
                       </div>
+                      <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#0D3B2E] mb-2">
+                        {portfolioItems[2].title}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-stone-500 leading-relaxed mb-6">
+                        {portfolioItems[2].specs}
+                      </p>
                     </div>
 
-                    <div className="p-5 sm:p-6 flex items-center justify-between gap-3 mt-auto">
-                      <div>
-                        <h3 className="font-serif text-base sm:text-lg font-bold text-[#0D3B2E] mb-1">
-                          {item.title}
-                        </h3>
-                        <p className="text-xs text-stone-500 line-clamp-1">
-                          {item.specs}
-                        </p>
-                      </div>
-                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-emerald-50 text-emerald-800 flex items-center justify-center group-hover:bg-[#0D3B2E] group-hover:text-white transition-colors shrink-0">
-                        <ArrowUpRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                    <div className="pt-4 border-t border-stone-100 flex items-center justify-between">
+                      <span className="text-xs font-semibold text-[#0D3B2E] uppercase tracking-wider">
+                        Explore Workstation Architecture
+                      </span>
+                      <div className="w-8 h-8 rounded-full bg-emerald-50 text-emerald-800 flex items-center justify-center group-hover:bg-[#0D3B2E] group-hover:text-white transition-colors shrink-0">
+                        <ArrowUpRight className="w-4 h-4" />
                       </div>
                     </div>
                   </div>
-                ))}
-              </div>
+                </div>
+              )}
             </>
           ) : (
             /* Filtered state: responsive grid of matching items */

@@ -129,11 +129,11 @@ export const portfolioCategories = [
 export const portfolioItems = [
   {
     id: 1,
-    title: 'Executive Boardroom',
+    title: 'Executive Boardroom & Leadership Suite',
     category: 'Workplaces',
     tags: ['COMMERCIAL', 'CORPORATE'],
     specs: '4,500 sq.ft. corporate office suite with integrated conference AV & acoustics',
-    image: '/images/image-1-meeting-room.jpg',
+    image: '/images/image-14-luxury-lounge-2.jpg',
     featured: true,
   },
   {
@@ -152,22 +152,6 @@ export const portfolioItems = [
     tags: ['WORKSPACES', 'MODULAR'],
     specs: 'High-density ergonomic desk clusters with cable management',
     image: '/images/image-26-workstations-yellow-pedestal.jpg',
-  },
-  {
-    id: 4,
-    title: 'Architectural Auditoria',
-    category: 'Institutional',
-    tags: ['INSTITUTIONAL', 'ACOUSTICS'],
-    specs: '500-seat tiered acoustic auditorium with balcony seating & VIP lounge',
-    image: '/images/image-33-cinema-auditorium-red-seats.jpg',
-  },
-  {
-    id: 5,
-    title: 'Reception & Waiting Lounge',
-    category: 'Healthcare',
-    tags: ['EXPERIENCE', 'HOSPITALITY'],
-    specs: 'Warm architectural wood finishes & signature monolith reception counter',
-    image: '/images/image-18-clinic-lobby-reception.jpg',
   },
 ];
 

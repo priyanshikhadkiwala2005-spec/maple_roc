@@ -16,7 +16,7 @@ export default function FourDisciplinesAbout() {
       tag: 'ARCHITECTURE',
       title: 'Interior Design',
       desc: 'Creating inspiring, functional, and brand-aligned commercial environments with detailed 3D visualization and planning.',
-      image: '/images/image-14-luxury-lounge-2.jpg',
+      image: '/images/image-2-pantry-breakout.jpg',
       linkText: 'Explore Design',
     },
     {

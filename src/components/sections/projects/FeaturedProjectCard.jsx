@@ -4,7 +4,7 @@ export default function FeaturedProjectCard() {
   const thumbnails = [
     { src: '/images/image-15-healthcare-clinic.jpg', alt: 'Healthcare Clinic Facility' },
     { src: '/images/image-16-hospital-icu-ward.jpg', alt: 'Specialized Ward Fitout' },
-    { src: '/images/image-17-hospital-reception-vitrag.jpg', alt: 'Hospital Lobby Reception' },
+    { src: '/images/image-18-clinic-lobby-reception.jpg', alt: 'Clinic Reception & Waiting Lobby' },
   ];
 
   return (

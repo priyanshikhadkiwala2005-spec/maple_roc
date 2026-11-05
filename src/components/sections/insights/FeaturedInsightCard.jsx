@@ -37,19 +37,37 @@ export default function FeaturedInsightCard({ activeFilter, onSelectFilter }) {
       <div className="bg-white rounded-2xl sm:rounded-3xl border border-stone-200/90 shadow-xs p-6 sm:p-8 lg:p-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
-          {/* Left Column: Real Photo with Tag */}
+          {/* Left Column: Official Spatial Whitepaper Dossier Cover */}
           <div className="lg:col-span-5">
-            <div className="relative rounded-2xl overflow-hidden aspect-4/3 sm:aspect-5/4 bg-stone-100 border border-stone-200/80 shadow-xs">
-              <img
-                src="/images/image-32-cubicle-fitout-installation.jpg"
-                alt="Resident MEP engineering and site fitout"
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 via-transparent to-transparent pointer-events-none" />
+            <div className="relative rounded-2xl overflow-hidden aspect-4/3 sm:aspect-5/4 bg-gradient-to-br from-[#0D3B2E] via-[#164738] to-[#0A2920] p-6 sm:p-8 flex flex-col justify-between text-white shadow-md border border-emerald-900/60">
+              <div className="flex items-center justify-between">
+                <span className="bg-emerald-800/80 text-emerald-200 border border-emerald-600/50 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-xs">
+                  Technical White Paper
+                </span>
+                <span className="text-[10px] font-mono text-emerald-300/80">
+                  REF: MR-WP-2026
+                </span>
+              </div>
 
-              <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-xs px-3 py-1 rounded-full text-[10px] font-bold text-stone-900 tracking-wider uppercase border border-white/70 shadow-xs">
-                Featured White Paper
+              <div className="my-auto py-4">
+                <div className="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur-xs flex items-center justify-center p-2 mb-4 border border-white/20 shadow-sm">
+                  <img
+                    src="/images/mapleroc-logo-icon.png"
+                    alt="MapleRoc Logo"
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+                <h4 className="font-serif text-lg sm:text-xl font-bold text-white leading-snug mb-2">
+                  Resident MEP Superintendent Governance
+                </h4>
+                <p className="text-xs text-emerald-100/70 line-clamp-2">
+                  Critical-path scheduling and single-contract delivery protocols in commercial fitouts.
+                </p>
+              </div>
+
+              <div className="pt-3 border-t border-emerald-800/60 flex items-center justify-between text-[11px] text-emerald-200/90 font-medium">
+                <span>MapleRoc Spatial Directorate</span>
+                <span className="text-white font-semibold">12-Min Full Brief</span>
               </div>
             </div>
           </div>

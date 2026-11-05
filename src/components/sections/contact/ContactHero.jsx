@@ -72,7 +72,7 @@ export default function ContactHero() {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-stone-200/80 bg-stone-100 aspect-4/3 sm:aspect-5/4 lg:aspect-4/3">
               <img
-                src="/images/image-18-clinic-lobby-reception.jpg"
+                src="/images/image-1-meeting-room.jpg"
                 alt="MapleRoc Corporate Secretariat Conference Room"
                 className="w-full h-full object-cover"
                 loading="eager"

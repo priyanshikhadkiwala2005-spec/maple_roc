@@ -39,25 +39,19 @@ export default function HeroSection() {
               </Button>
             </div>
 
-            {/* Social Proof Avatars */}
+            {/* Social Proof Avatars (Authentic Client Initials - No External Stock) */}
             <div className="pt-2 sm:pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
               <div className="flex -space-x-2.5 overflow-hidden">
-                <img
-                  className="inline-block h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white object-cover"
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80"
-                  alt="Client avatar"
-                />
-                <img
-                  className="inline-block h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white object-cover"
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80"
-                  alt="Client avatar"
-                />
-                <img
-                  className="inline-block h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white object-cover"
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80"
-                  alt="Client avatar"
-                />
-                <div className="inline-flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white bg-[#0D3B2E] text-emerald-300 text-xs font-bold">
+                <div className="inline-flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white bg-[#1F3D2B] text-emerald-200 text-xs font-bold tracking-wider shadow-xs">
+                  NH
+                </div>
+                <div className="inline-flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white bg-[#28573D] text-emerald-100 text-xs font-bold tracking-wider shadow-xs">
+                  AM
+                </div>
+                <div className="inline-flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white bg-[#37694C] text-white text-xs font-bold tracking-wider shadow-xs">
+                  RL
+                </div>
+                <div className="inline-flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 rounded-full ring-2 ring-white bg-[#0D3B2E] text-emerald-300 text-xs font-bold shadow-xs">
                   200+
                 </div>
               </div>

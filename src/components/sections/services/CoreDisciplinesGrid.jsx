@@ -18,7 +18,7 @@ export default function CoreDisciplinesGrid() {
       id: '02',
       title: 'Interior Design',
       tag: 'Commercial Space Architecture',
-      image: '/images/image-2-pantry-breakout.jpg',
+      image: '/images/image-17-hospital-reception-vitrag.jpg',
       alt: 'Commercial interior design and reception fitout',
       description:
         'Human-centric layout planning, 3D photorealistic renderings, material boards, and lighting design that elevates brand identity and workplace productivity.',
